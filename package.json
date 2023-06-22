@@ -31,7 +31,7 @@
 		"@badeball/cypress-cucumber-preprocessor": "12.2.0",
 		"@bahmutov/cypress-esbuild-preprocessor": "2.1.5",
 		"@esbuild-plugins/node-modules-polyfill": "0.1.4",
-		"@faker-js/faker": "7.6.0",
+		"@faker-js/faker": "^7.6.0",
 		"@shelex/cypress-allure-plugin": "2.39.1",
 		"@typescript-eslint/eslint-plugin": "5.53.0",
 		"@typescript-eslint/parser": "5.53.0",
@@ -55,5 +55,8 @@
 		"multiple-cucumber-html-reporter": "3.0.1",
 		"prettier": "2.8.4",
 		"typescript": "4.9.5"
+	},
+	"dependencies": {
+		"dayjs": "^1.11.8"
 	}
 }

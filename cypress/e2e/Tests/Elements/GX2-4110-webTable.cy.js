@@ -1,4 +1,4 @@
-import { web } from '@pages/Elements/GX2-4110-webTables';
+import { web } from '@pages/Elements/webTables';
 import { faker } from '@faker-js/faker';
 import { removeLogs } from '@helper/RemoveLogs';
 
@@ -67,7 +67,7 @@ describe('GX2-4110 | ToolsQA | Elements | Web Table', () => {
 	it('4111 | TC3: Validate user can filter a register search by field.', () => {
 		web.get.searchBox().should('have.attr', 'placeholder', 'Type to search');
 		web.get.iconSearch().should('exist');
-		
+
 		// type in the search bar just 2 letters of a word to validate the list of coincidences .
 		web.get.searchBox().type('al');
 		web.get
